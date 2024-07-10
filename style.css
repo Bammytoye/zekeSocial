@@ -49,9 +49,10 @@ nav ul li a {
     text-decoration: none;
     padding: 14px 40px;
     color: #fff;
-    background-image: linear-gradient(45deg, #c7be44, #b9e41e);
+    background-image: linear-gradient(45deg, #f1e868, #b9e41e);
     border-radius: 30px;
     border-top-right-radius: 0;
+    border-top-left-radius: 0;
     transition: 0.8s;
 }
 
@@ -81,6 +82,7 @@ nav ul li a {
 
 .btn:hover{
     border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
     background-image: linear-gradient(45deg, #756f10, #83a019);
     color: #c8fd08;
 }
